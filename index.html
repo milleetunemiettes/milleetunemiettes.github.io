@@ -9,6 +9,11 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
+	<link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,22 +39,115 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Cupcakes</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#cupcakes">Cupcakes</a></li>
 			
 		  </ul>
 		  		  <a class="navbar-brand" href="#"><img src="images/logo_v2.png" width="200px"/></a>
 
 		  <ul class="nav navbar-nav">
 			
-			<li><a href="#">Photos</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#galerie">Galerie</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#footer">Contact</a></li>
 		  </ul>
 		  
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<div class="container-fluid slider">
+	</div>
+	<div class="container-fluid services" id="services">
+		<div class="row">
+			<h1>Services</h1>
+			<div class="col-md-3"></div>
+			<div class="col-md-2">
+				<img src="images/cupcake_icon.png" width="100px" />
+				<h2>Cupcakes</h2>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+			</div>
+			<div class="col-md-2">
+				<img src="images/stand_icon.png" width="100px"/>
+				<h2>Location de stands</h2>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+			</div>
+			<div class="col-md-2">
+				<img src="images/livraison_icon.png" width="100px"/>
+				<h2>Livraison</h2>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+	<div class="container-fluid cupcakes" id="cupcakes">
+		<div class="row">
+			<h1>Cupcakes</h1>
+			<div class="col-md-2"></div>
+			<div class="col-md-2 cupcake">
+				<img src="images/caramel.jpg"/>
+				<h2>Caramel au beurre salé</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. 
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </p>
+			</div>
+			<div class="col-md-2 cupcake">
+				<img src="images/citron.jpg"/>
+				<h2>Citron meringué</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. 
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </p>
+			</div>
+			<div class="col-md-2 cupcake">
+				<img src="images/framboise.jpg"/>
+				<h2>Coeur framboise</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. 
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </p>
+			</div>
+			<div class="col-md-2 cupcake">
+				<img src="images/chocolat.jpg"/>
+				<h2>Tout chocolat</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. 
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<div class="container-fluid galerie" id="galerie">
+		<h1>Galerie</h1>
+	</div>
+	<div class="container-fluid team" id="team">
+		<h1>La team</h1>
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
+			<div class="maya"></div>
+			<h2>Maya Jeanmonod</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+		</div>
+		<div class="col-md-3">
+			<div class="natalie"></div>
+			<h2>Natalie Canonica</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="container-fluid footer" id="footer">
+		<div class="col-md-2"></div>
+		<div class="col-md-2">
+			<h2>À propos de nous</h2>
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet malesuada turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi a est ultrices est viverra laoreet et quis turpis. </span>
+		</div>
+		<div class="col-md-2">
+			<h2>Contact</h2>
+			<p>milleetunemiettes@gmail.com</p>
+		</div>
+		<div class="col-md-2">
+			<h2>Adresse</h2>
+			<span>Chemin de la Poya 3</br>
+			1610 Oron-la-Ville</span>
+		</div>
+		<div class="col-md-2">
+			<h2>Liens</h2>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -1,0 +1,103 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #6d6e71;
+}
+
+h1, h2 {
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+}
+
+h1{
+	margin-bottom: 40px;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar{
+	display: flex;
+}
+
+.services {
+	color: rgb(139, 199, 184);
+}
+
+.cupcakes{
+	background-color: rgb(11, 174, 170);
+	background: url(../images/pattern1.jpg);
+	color: #ffffff;
+	margin: 0 auto;
+
+}
+
+.slider {
+	background: url("../images/Cupcakes-8.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	height:600px;
+	width:100%;
+}
+
+.col-md-4{
+	text-align: center;
+}
+
+.services, .cupcakes, .team, .contact{
+	padding: 50px 0;
+}
+
+
+.cupcakes img {
+	margin: 0px;
+	width: 100%;
+}
+
+.services img{
+	margin: 0 auto;
+	width: 100px;
+	display: block;
+}
+
+.cupcake{
+	background:#ffffff;
+	padding:0;
+	margin: 0 15px;
+	color: #6d6e71;
+	
+}
+
+.cupcake p{
+	padding: 15px;	
+}
+
+.footer {
+	background: rgb(245, 134, 116);
+	color: #ffffff;
+}
+
+.maya, .natalie{
+	width: 200px;
+	height:200px;
+	-webkit-border-radius:100px;
+    border-radius:100px;
+    -moz-border-radius:100px;
+	margin: 0 auto;
+	}
+.footer h2{
+	text-align: left;
+}
+	
+.maya{
+	background: url("../images/maya.jpg");
+}
+
+.natalie{
+	background: url("../images/natalie.jpg");
+}
