@@ -1,15 +1,24 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #6d6e71;
+	text-align: justify;
 }
 
-h1, h2 {
+h1, h2, .btn {
 	font-family: 'Pacifico', cursive;
 	text-align:center;
 }
 
 h1{
 	margin-bottom: 40px;
+}
+
+.btn {
+	font-size: 25px;
+	border: none;
+	color: #6d6e71;
+	border-radius: 0px;
+
 }
 
 .navbar-default .navbar-collapse {
@@ -78,20 +87,18 @@ h1{
 }
 
 .footer {
-	background: rgb(245, 134, 116);
+	/*background: rgb(245, 134, 116);*/
+	background: #6d6e71;
 	color: #ffffff;
+	margin-top: 40px;
 }
-
-.maya, .natalie{
-	width: 200px;
-	height:200px;
-	-webkit-border-radius:100px;
-    border-radius:100px;
-    -moz-border-radius:100px;
+.img-circle{
 	margin: 0 auto;
-	}
+	display: block;
+}
 .footer h2{
 	text-align: left;
+	
 }
 	
 .maya{
@@ -100,4 +107,18 @@ h1{
 
 .natalie{
 	background: url("../images/natalie.jpg");
+}
+
+
+.galerie {
+	height: 100%;
+	width:100%;
+
+}
+
+#contact{
+	margin:0 auto;
+	width: 1000px;
+
+
 }
