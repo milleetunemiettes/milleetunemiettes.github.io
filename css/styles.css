@@ -1,7 +1,8 @@
-body{
+body, html{
 	font-family: 'Open Sans', sans-serif;
 	color: #6d6e71;
 	text-align: justify;
+	height: 100%;
 }
 
 h1, h2, .btn {
@@ -122,3 +123,4 @@ h1{
 
 
 }
+
