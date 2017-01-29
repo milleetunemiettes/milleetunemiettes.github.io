@@ -1,10 +1,27 @@
-ody, html{
+body, html{
 	font-family: 'Open Sans', sans-serif;
-	color: #6d6e71;
+	color: #333;
 	text-align: justify;
 	height: 100%;
+	background: url('../images/background.jpg');
+}
+.fltrt { 
+	float: right;
 }
 
+.fltlt{
+	float: left;
+}
+
+.container-fluid {
+	padding-right: 0px; 
+    padding-left: 0px; 
+}
+
+.cupcake_row {
+	margin-top: 10px;
+	/*height: 35px;*/
+}
 h1, h2, .btn {
 	font-family: 'Pacifico', cursive;
 	text-align:center;
@@ -16,19 +33,27 @@ h1{
 
 .btn {
 	font-size: 25px;
-	border: none;
-	color: #6d6e71;
+	border: solid #d0d0d0 0.5px;
+	padding: 10px;
+	color: #333;
 	border-radius: 0px;
+	margin-top: 20px;
 }
 
-.navbar-default .navbar-collapse {
-    border-color: #ffffff;
-	background-color: #ffffff;
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #f58674 /*8bc7b8 #c9e6d2*/;
+    border-color: #adadad;
 }
 
-.navbar-default {
-    background-color: #ffffff;
-    border-color: #ffffff;
+a:focus, button a:hover {
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar{
+	background: none;
+	border: none;
 }
 
 .navbar{
@@ -36,7 +61,7 @@ h1{
 	height:100px;
 }
 .navbar-brand{
-	background: url(../images/logo.png);
+	background: url('../images/logo.png');
 	width: 200px;
 	height: 70px;
 	margin: 0 10px 0x 20px;
@@ -48,13 +73,9 @@ h1{
     float: none;
 }
 
-.services {
-	color: rgb(139, 199, 184);
-}
-
 .cupcakes{
 	background-color: rgb(11, 174, 170);
-	background: url(../images/pattern1.jpg);
+	background: url('../images/pattern1.jpg');
 	color: #ffffff;
 	margin: 0 auto;
 
@@ -63,17 +84,22 @@ h1{
 .photo1{
 	background: url('../images/IMG_6847.jpg') no-repeat center fixed;
 	width:100%;
-		height:600px;
-			-webkit-background-size: cover;
-
+	height:600px;
+	-webkit-background-size: cover;
 	}
 .photo2{
 	background: url('../images/IMG_6859.jpg') no-repeat center fixed;
-		width:100%;	
-			height:600px;
-				-webkit-background-size: cover;
-
+	width:100%;	
+	height:600px;
+	-webkit-background-size: cover;
 }
+.photo3{
+	background: url('../images/IMG_6947.jpg') no-repeat center fixed;
+	width:100%;	
+	height:600px;
+	-webkit-background-size: cover;
+}
+
 
 .col-md-4{
 	text-align: center;
@@ -83,6 +109,13 @@ h1{
 	padding: 50px 0;
 }
 
+.services {
+	color: rgb(11, 174, 170);
+}
+
+.services span{
+	color: #333;
+}
 
 .cupcakes img {
 	margin: 0px;
@@ -99,18 +132,19 @@ h1{
 	background:#ffffff;
 	padding:0;
 	margin: 0 15px;
-	color: #6d6e71;
+	color: #333;
 	
 }
 
 .cupcake p{
 	padding: 15px;	
 	min-height:150px;
+	text-align: left;
 }
 
 .footer {
 	/*background: rgb(245, 134, 116);*/
-	background: #6d6e71;
+	background: #333;
 	color: #ffffff;
 	margin-top: 40px;
 }
@@ -136,7 +170,6 @@ h1{
 .galerie {
 	height: 100%;
 	width:100%;
-
 }
 
 #contact{
@@ -150,7 +183,7 @@ h1{
 
 a {
 	text-decoration: none;
-	color: #6d6e71;
+	color: #333;
 }
 
 fieldset legend {
@@ -191,11 +224,11 @@ fieldset legend {
 /* Flexbox is used for centering the heading */
 .cbp-rfgrid li a div {
 	position: absolute;
-	left: 20px;
-	top: 20px;
-	right: 20px;
-	bottom: 20px;
-	background: rgba(71,163,218,0.2);
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(11,174,170,0.5); /************* couleur du hover galerie*/
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
