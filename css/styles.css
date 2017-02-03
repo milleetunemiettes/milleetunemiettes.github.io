@@ -13,6 +13,9 @@ body, html{
 	float: left;
 }
 
+.nofloat{
+	float: none;	
+}
 .container-fluid {
 	padding-right: 0px; 
     padding-left: 0px; 
@@ -128,12 +131,17 @@ a:focus, button a:hover {
 	display: block;
 }
 
-.cupcake{
+.cupcake {
 	background:#ffffff;
 	padding:0;
-	margin: 0 15px;
+	/*margin-left: 10px;*/
+	margin-right: 2%;
 	color: #333;
-	
+	width: 15%;
+}
+.centercupcake {
+	margin: 0 auto;
+
 }
 
 .cupcake p{
