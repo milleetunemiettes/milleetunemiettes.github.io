@@ -139,10 +139,6 @@ a:focus, button a:hover {
 	color: #333;
 	width: 15%;
 }
-.centercupcake {
-	margin: 0 auto;
-
-}
 
 .cupcake p{
 	padding: 15px;	
@@ -150,20 +146,25 @@ a:focus, button a:hover {
 	text-align: left;
 }
 
-.footer {
+.img_cupcake img{
+	width:60px;
+	display: inline;
+	margin-right: 20px;
+}
+#footer {
 	/*background: rgb(245, 134, 116);*/
 	background: #333;
 	color: #ffffff;
 	margin-top: 40px;
 }
-.footer a{
+#footer a{
 	color: white;
 }
 .img-circle{
 	margin: 0 auto;
 	display: block;
 }
-.footer h2{
+#footer h2{
 	text-align: left;
 }
 	
