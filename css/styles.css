@@ -136,6 +136,7 @@ a:focus, button a:hover {
 	padding:0;
 	margin-right: 2%;
 	color: #333;
+
 }
 
 .test{
@@ -149,8 +150,10 @@ a:focus, button a:hover {
 	.test
 	{
 		display: flex;
-		justify-content: center;
 		flex-direction: column;
+	}
+	.cupcake, .service, #order, #footer{
+		margin: auto auto 20px auto;
 	}
 }
 
@@ -160,6 +163,7 @@ a:focus, button a:hover {
 @media (min-width: @screen-lg-min){ 
 	.cupcake {
 		width: 100%;
+
 	}
 	.test {
 		display: flex;
