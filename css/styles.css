@@ -18,7 +18,7 @@ body, html{
 }
 .container-fluid {
 	padding-right: 0px; 
-    padding-left: 0px; 
+	padding-left: 0px; 
 }
 
 .cupcake_row {
@@ -44,14 +44,14 @@ h1{
 }
 
 .btn-default:hover {
-    color: #ffffff;
-    background-color: #f58674 /*8bc7b8 #c9e6d2*/;
-    border-color: #adadad;
+	color: #ffffff;
+	background-color: #f58674 /*8bc7b8 #c9e6d2*/;
+	border-color: #adadad;
 }
 
 a:focus, button a:hover {
 	color: #ffffff;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar{
@@ -71,9 +71,9 @@ a:focus, button a:hover {
 	
 }
 .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
 }
 
 .cupcakes{
@@ -83,13 +83,13 @@ a:focus, button a:hover {
 	margin: 0 auto;
 
 }
-	
+
 .photo1{
 	background: url('../images/IMG_6847.jpg') no-repeat center fixed;
 	width:100%;
 	height:600px;
 	-webkit-background-size: cover;
-	}
+}
 .photo2{
 	background: url('../images/IMG_6859.jpg') no-repeat center fixed;
 	width:100%;	
@@ -134,10 +134,40 @@ a:focus, button a:hover {
 .cupcake {
 	background:#ffffff;
 	padding:0;
-	/*margin-left: 10px;*/
 	margin-right: 2%;
 	color: #333;
-	width: 15%;
+}
+
+.test{
+	display: flex;
+	justify-content: center;
+}
+
+/* Small devices (tablets, 768px and up) @media (min-width: @screen-sm-min) */
+@media all and (max-width: 700px)
+{
+	.test
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+
+/* Large desktop 
+@media all and (min-width: 1200px)*/
+@media (min-width: @screen-lg-min){ 
+	.cupcake {
+		width: 100%;
+	}
+	.test {
+		display: flex;
+		justify-content: center;
+		align-items:  stretch;
+		flex-direction: row;
+	}
+	
 }
 
 .cupcake p{
@@ -151,23 +181,25 @@ a:focus, button a:hover {
 	display: inline;
 	margin-right: 20px;
 }
-#footer {
+footer {
 	/*background: rgb(245, 134, 116);*/
 	background: #333;
 	color: #ffffff;
 	margin-top: 40px;
+	display: flex;
 }
-#footer a{
+
+footer a{
 	color: white;
 }
 .img-circle{
 	margin: 0 auto;
 	display: block;
 }
-#footer h2{
+footer h2{
 	text-align: left;
 }
-	
+
 .maya{
 	background: url("../images/maya.jpg");
 }
@@ -245,9 +277,9 @@ fieldset legend {
 	-webkit-align-items: center;
 	-moz-align-items: center;
 	-ms-align-items: center;
-    align-items: center;
-    text-align: center;
-    opacity: 0;
+	align-items: center;
+	text-align: center;
+	opacity: 0;
 }
 
 .cbp-rfgrid li a:hover div {
